@@ -2,4 +2,11 @@ body  {
       color: #999999;
       font-family: 'Open Sans', sans-serif;
       font-size: 12px;
+      font-style: 400;
       }
+
+h1 {color: #33485e;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+   }
