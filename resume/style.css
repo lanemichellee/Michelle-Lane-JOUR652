@@ -10,3 +10,14 @@ h1 {color: #33485e;
     font-size: 3em;
     text-transform: uppercase;
    }
+
+strong {color: #33485e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+   }
+
+h2 {color: white;
+   font-size: 1.5em;
+   text-transform: uppercase;
+   background-color: #33485e;
+   }
