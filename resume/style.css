@@ -1,23 +1,49 @@
+/* styles for my resume */
+
+
 body  {
-      color: #999999;
+      color: #444444;
       font-family: 'Open Sans', sans-serif;
       font-size: 12px;
-      font-style: 400;
-      }
+      font-weight: 400;
+}
 
+/* banner name at top */
 h1 {color: #33485e;
     text-align: center;
     font-size: 3em;
     text-transform: uppercase;
-   }
+}
 
+/* current job title */
 strong {color: #33485e;
     font-size: 1.5em;
     text-transform: uppercase;
-   }
+}
 
+/* sections */
 h2 {color: white;
    font-size: 1.5em;
    text-transform: uppercase;
    background-color: #33485e;
-   }
+   font-weight: 400;
+}
+
+/* job titles */
+h3 {font-size: 1.5em;
+    font-weight: 600;
+}
+
+/* job organization */
+h4 {font-size: 1.5em;
+    font-weight: 400;
+}
+
+/* job dates */
+h5 {font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* contact info, education, skills */
+li {font-size: 1em;}
