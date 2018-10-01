@@ -9,10 +9,14 @@ body  {
 }
 
 /* banner name at top */
-h1 {color: #33485e;
+#name {color: #33485e;
     text-align: center;
     font-size: 3em;
     text-transform: uppercase;
+    border-bottom: 1px solid #33485e;
+    width : 60%;
+    min-width: 300px;
+    margin: 0 auto;
 }
 
 /* current job title */
