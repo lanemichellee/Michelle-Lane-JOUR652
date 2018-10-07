@@ -20,41 +20,71 @@ body  {
 }
 
 /* current job title */
-strong {color: #33485e;
+#title {color: #33485e;
     font-size: 1.5em;
     text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0 0 0;
 }
 
 /* sections */
-#sectionheader {color: white;
+.sectionheader {color: white;
    font-size: 1.5em;
    text-transform: uppercase;
    background-color: #33485e;
    font-weight: 400;
-   margin-bottom: 10px;
-   margin-top: 20px;
-   margin-left: 0px;
-   margin-right: 0px;
+   margin: 20px 0 10px 0;
    width: 70%;
-   width-min: 300px;
+   min-width: 300px;
 }
 
 /* job titles */
-h3 {font-size: 1.5em;
+.jobtitle {font-size: 1.5em;
     font-weight: 600;
 }
 
 /* job organization */
-h4 {font-size: 1.5em;
+.organization {font-size: 1.25em;
     font-weight: 400;
 }
 
 /* job dates */
-h5 {font-size: 1em;
+.date {font-size: 1em;
     font-weight: 400;
     font-style: italic;
+    margin: 2px 0 0 0;
 }
 
-/* contact info, education, skills */
-li {font-size: 1em;
+.description {
+    margin: 10px 0 10px 0;
+}
+
+/* contact information */
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* contact information list item */
+.menu li {
+    display: inline;
+}
+
+/* education */
+#degrees {
+    margin: 5px 0 0 0;
+}
+
+/* skills */
+#do {
+    margin: 5px 0 0 0;
+}
+
+
+
+/* contact information, education, skills */
+li {
+  font-size: 1em;
 }
