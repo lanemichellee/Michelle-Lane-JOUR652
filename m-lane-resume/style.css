@@ -1,0 +1,69 @@
+/* styles for my resume */
+
+
+body  {
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* container */
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+
+
+/* navbar */
+.nav-link {
+  color: #353A3F;
+  text-align: left;
+  font-size: 2em;
+}
+
+.jumbotron {
+  margin: 20px 0 10px 0;
+  background-image: url(/Users/michellee.lane/Documents/GitHub/Michelle-Lane-JOUR652/michelle-lane-resume/michelle-lane-resume-photo.jpg);
+  background-size: cover;
+  color: white;
+}
+
+/* sections */
+.sectionheader {
+    color: white;
+    font-size: 2em;
+    background-color: #353A3F;
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    min-width: 300px;
+}
+
+/* job titles */
+.jobtitle {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/* job organization */
+.organization {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+/* job dates */
+.date {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 2px 0 0 0;
+}
+
+/* paragraphs */
+.description {
+    margin: 10px 0 10px 0;
+}
