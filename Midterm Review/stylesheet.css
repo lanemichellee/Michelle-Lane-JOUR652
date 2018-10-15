@@ -8,3 +8,37 @@
 #headline {
   font-family: Helvetica, sans-serif;
 }
+
+/*byline*/
+#byline
+  {font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+
+.body {
+  font-family: georgia, sans-serif;
+  font-size: 13px;
+}
+
+.related-links {
+  font-family: georgia, sans-serif;
+  font-size: 16px;
+}
+
+figure {
+  width: 500px;
+  float: right;
+}
+
+blockquote {
+  font-size: 32px;
+  text-align:right;
+  color: green;
+}
+
+figcaption {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+}
