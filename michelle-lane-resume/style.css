@@ -4,43 +4,41 @@
 body  {
     color: #353A3F;
     font-family: 'Antic', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 }
 
 /* container */
-.container {
+#container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 50px;
 }
 
-
-
 /* navbar */
 .nav-link {
   color: #353A3F;
   text-align: left;
-  font-size: 2em;
+  font-size: 28px;
 }
 
+/* jumbotron */
 .jumbotron {
-  margin: 20px 0 10px 0;
-  background-image: url(blank-board.jpg);
+  margin: 20px 0 0 0;
+  background-image: url(workspace-resume-photo.jpg);
   background-size: cover;
-  color: #353A3F;
+  color: white;
+  opacity: .80;
   font-weight: 400;
-  font-size: 2em;
+  font-size: 28px;
 }
-
 
 /* sections */
 .sectionheader {
     color: #353A3F;
     font-size: 32px;
     font-weight: 400;
-
 }
 
 /* job titles */
@@ -51,26 +49,26 @@ body  {
 
 /* job organization */
 .organization {
-    font-size: 1.25em;
+    font-size: 16px;
     font-weight: 400;
 }
 
 /* job dates */
 .date {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     font-style: italic;
 }
 
 /* paragraphs */
 .description {
-    font-size: 14px;
+    font-size:  16px;
 }
 
 /* card text */
 .card-text {
     color: white;
-    background-color: black;
+    background-color: #353A3F;
     font-size: 20px;
     opacity: .80;
     text-align: center;
