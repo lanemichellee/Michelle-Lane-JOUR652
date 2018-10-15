@@ -2,15 +2,14 @@
 
 
 body  {
-    color: #444;
-  font-family: 'Assistant', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+    color: #353A3F;
+    font-family: 'Antic', sans-serif;
     font-size: 12px;
     font-weight: 400;
 }
 
 /* container */
-#container {
+.container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -28,28 +27,25 @@ body  {
 
 .jumbotron {
   margin: 20px 0 10px 0;
-  background-image: url(workspace-resume-photo.jpg);
+  background-image: url(blank-board.jpg);
   background-size: cover;
-  color: white;
-  text-align: center;
-  font-weight: 700;
-  font-size: 3em;
+  color: #353A3F;
+  font-weight: 400;
+  font-size: 2em;
 }
+
 
 /* sections */
 .sectionheader {
-    color: white;
-    font-size: 2em;
-    background-color: #353A3F;
+    color: #353A3F;
+    font-size: 32px;
     font-weight: 400;
-    margin: 0 0 0 20;
-    width: 100%;
-    min-width: 300px;
+
 }
 
 /* job titles */
 .jobtitle {
-    font-size: 1.5em;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -61,13 +57,21 @@ body  {
 
 /* job dates */
 .date {
-    font-size: 1em;
+    font-size: 14px;
     font-weight: 400;
     font-style: italic;
-    margin: 2px 0 0 0;
 }
 
 /* paragraphs */
 .description {
-    margin: 10px 0 10px 0;
+    font-size: 14px;
+}
+
+/* card text */
+.card-text {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    opacity: .80;
+    text-align: center;
 }
