@@ -19,7 +19,7 @@ body  {
 .nav-link {
   color: #353A3F;
   text-align: left;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 /* jumbotron */
@@ -40,26 +40,47 @@ body  {
     font-weight: 400;
 }
 
+/* experience sectionheader */
+#Experience {
+  color: #353A3F;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+/* education sectionheader */
+#Education {
+  color: #353A3F;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+/* skills & interests sectionheader */
+#Skills {
+  color: #353A3F;
+  font-size: 28px;
+  font-weight: 400;
+}
+
 /* job titles */
 .jobtitle {
     font-size: 16px;
     font-weight: 600;
 }
 
-/* job organization */
+/* organization */
 .organization {
     font-size: 16px;
     font-weight: 400;
 }
 
-/* job dates */
+/* date */
 .date {
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
 }
 
-/* paragraphs */
+/* description */
 .description {
     font-size:  16px;
 }
@@ -70,5 +91,12 @@ body  {
     background-color: #353A3F;
     font-size: 20px;
     opacity: .80;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    color: #353A3F;
     text-align: center;
 }
