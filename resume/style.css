@@ -15,13 +15,17 @@ body  {
     padding-bottom: 50px;
 }
 
+/* mouse over link */
+a:hover {
+    color: teal;
+}
 
 /* navbar */
 .nav-link {
+  font-size: 18px;
   color: #353A3F;
-  text-align: left;
-  font-size: 20px;
 }
+
 
 /* jumbotron */
 .jumbotron {
@@ -34,12 +38,6 @@ body  {
   font-size: 28px;
 }
 
-/* sections */
-.sectionheader {
-    color: #353A3F;
-    font-size: 32px;
-    font-weight: 400;
-}
 
 /* experience sectionheader */
 #Experience {
