@@ -17,7 +17,7 @@ body  {
 
 /* mouse over link */
 a:hover {
-    color: teal;
+    color: aqua;
 }
 
 /* navbars */
@@ -95,9 +95,6 @@ a:hover {
     opacity: .80;
     text-align: center;
 }
-
-
-
 
 .footer {
     text-align: center;
