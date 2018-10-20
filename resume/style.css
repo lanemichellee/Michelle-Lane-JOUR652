@@ -20,12 +20,15 @@ a:hover {
     color: teal;
 }
 
-/* navbar */
+/* navbars */
 .nav-link {
   font-size: 18px;
   color: #353A3F;
 }
 
+.dropdown-item {
+  font-size: 16px;
+}
 
 /* jumbotron */
 .jumbotron {
@@ -93,9 +96,12 @@ a:hover {
     text-align: center;
 }
 
+
+
+
 .footer {
     text-align: center;
     width: 100%;
     color: #353A3F;
-    text-align: center;
+
 }
