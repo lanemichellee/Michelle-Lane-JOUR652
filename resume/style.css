@@ -9,7 +9,7 @@ body  {
 /* content */
 #content {
     width: 100%;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding-bottom: 50px;
 }
@@ -19,7 +19,7 @@ a:hover {
     color: teal;
 }
 
-/* navbar */
+/* navbars */
 .nav-link {
   font-size: 18px;
   color: #353A3F;
@@ -39,6 +39,7 @@ a:hover {
   opacity: .80;
   font-weight: 400;
   font-size: 28px;
+
 }
 
 /* experience sectionheader */
