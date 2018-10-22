@@ -1,12 +1,44 @@
+/*page-wrapper*/
 #content {
   margin: 0 auto;
   width: 900px;
 }
 
 /*headline*/
-#headline
+#headline {
+font-family: 'Noto Serif', serif;
+font-size: 24px;
+}
 
+#byline{
+font-size: 12px;
+font-style: italic;
+}
 
 .subhead {
-  font-size: 50px;
+  font-family: 'Noto Serif', serif;
+  font-size: 16px;
+}
+
+.body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+blockquote {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  text-align: right;
+  color: orange;
+}
+
+figure {
+  float: right;
+}
+
+figcaption {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  width: 500px;
 }
