@@ -1,5 +1,27 @@
-#containter {
-Max-width: 1000px;
-width: 100%;
-Margin: 0 auto;
+#container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+#byline {
+  font-style: italic;
+}
+
+.chapter {
+  color:blue;
+}
+
+.chapter-text {
+  color: purple;
+}
+
+figure {
+  float: center;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
 }
