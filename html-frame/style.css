@@ -5,23 +5,27 @@
   padding-bottom: 25px;
 }
 
+#headline {
+  color: black
+}
+
 #byline {
+  color: grey;
   font-style: italic;
 }
 
-.chapter {
-  color:blue;
-}
-
 .chapter-text {
-  color: purple;
+  color: grey;
 }
 
 figure {
-  float: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
+/*footer*/
 .footer {
-    width: 100%;
     text-align: center;
 }
