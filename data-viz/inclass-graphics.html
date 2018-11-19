@@ -137,6 +137,16 @@
 </div>
 <!-- END sixth graphic container LINE CHART-->
 
+
+<!-- seven graphic container LINE CHART 3-->
+<div class="graphic-container">
+  <h2>Examining the carnage.</h2>
+  <p>By year.</p>
+  <div id="myLineChart3"></div>
+  <em>Source: Data collected by The Washington Post</em>
+</div>
+<!-- END seven graphic container LINE CHART 3-->
+
 </div><!--close body container div-->
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -182,6 +192,12 @@ var chart3 = c3.generate({
 
 var chart2 = c3.generate({
 bindto: '#shootingsByTypeChart',
+axis: {
+  rotated: true
+},
+bar: {
+  space: 0.25
+},
 data: {
 columns: [
 ['Targeted', 130],
@@ -222,22 +238,6 @@ var chart3 = c3.generate({
  }
 });
 
-var chart2 = c3.generate({
-bindto: '#whereByBarChart',
-data: {
-columns: [
-['City', 101],
-['Suburb', 58],
-['Town', 24],
-['Rural', 31],
-['Total', 214],
-],
-type: 'bar'
-},
-color: {
-pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
-}
-});
 
 var chart = c3.generate({
   bindto: '#myLineChart2',
@@ -256,6 +256,35 @@ var chart = c3.generate({
     pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
   }
 });
+
+
+var chart = c3.generate({
+  bindto: '#myLineChart3',
+  axis: {
+    rotated: true
+  },
+  size: {
+    height: 400,
+    width: 400
+  },
+  data: {
+    x: 'x',
+    columns: [
+      ['x', 2013, 2014, 2015, 2016, 2017],
+      ['Undergraduate', 26658, 27056, 27443, 28472, 29868],
+      ['x', 2013, 2014, 2015, 2016, 2017],
+      ['Graduate', 10614, 10554, 10697, 10611, 10653],
+    ]
+  },
+  color: {
+    pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+  }
+});
+
+
+
+
+
   </script>
 
 </body>

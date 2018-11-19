@@ -161,6 +161,12 @@
 
      var chart2 = c3.generate({
      bindto: '#whereByBarChart',
+     axis: {
+       rotated: true
+     },
+     bar: {
+       space: 0.25
+     },
      data: {
      columns: [
      ['Montgomery', 9925],
