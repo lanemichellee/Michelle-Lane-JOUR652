@@ -3,18 +3,19 @@ body  {
     font-family: 'PT Serif', serif;
 }
 
-text-decoration: none
-
 a:link {
   color: #e0162b;
-}
-
-a:hover {
-  color: #0052a5;
+  text-decoration: none;
 }
 
 a:visited {
   color: #999;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0052a5;
+  text-decoration: none;
 }
 
 .navbar {
@@ -23,6 +24,9 @@ a:visited {
  color: white;
 }
 
+a.nav-link{
+  color: pink;
+}
 .bg-dark {
  background:#000 !important;
 }
