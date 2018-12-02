@@ -80,7 +80,7 @@
 
 <!--intro text-->
 <div id="intro">
-  <p>In 1999, two young men killed 12 students and wounded 24 others at Columbine High School in Littleton, Colorado. The incident sparked a long series of school shootings in the United States that has continues to this day. Not a single year has passed since 1999 without at least five school shootings in the U.S. There have been at least 214 school shootings since Columbine, according to newly released data by The Washington Post that examines school shootings at secondary and primary schools in the U.S since the Columbine shooting.
+  <p>In 1999, two young men killed 12 students and wounded 24 others at Columbine High School in Littleton, Colorado. The incident sparked a long series of school shootings in the United States that has continues to this day. Not a single year has passed since 1999 without at least five school shootings in the U.S. There have been at least 214 school shootings since Columbine, according to newly released <a href=https://github.com/washingtonpost/data-school-shootings>data by The Washington Post</a> that examines school shootings at secondary and primary schools in the U.S since the Columbine shooting.
   </p>
 </div>
 
@@ -97,6 +97,8 @@
       <img src="images/star-red.png" class="top-star">
       <img src="images/star-blue.png" class="top-star"> School shootings happen all over the U.S.
     </div>
+    <p class="chapter-text">School shootings have occured all over the United States, as seen in the map below. In general, higher population areas have seen more incidents, with shootings clustered on the east and west coasts. California, which is the most populous state in the country, had 27 school shooting incidents since 1999, the most of any state. The next highest state was Florida with 16 school shootings since 1999.</p>
+
     <p class="chapter-text">At least five school school shootings have occurred every year since 1999, with an average number of 11 shootings per-year.  2006 and 2014 had the highest number of incidents with fifteen and sixteen school shootings, respectively. As can be seen the chart below, the past three years have remained consistently high, with at least a dozen incidents each year.</p>
 
 <!--line chart 1 graphic container-->
@@ -108,17 +110,21 @@
   </div>
 <!--END line chart 1 graphic container-->
 
-    <p class="chapter-text">School shootings have occured all over the United States, as seen in the map below. In general, higher population areas have seen more incidents, with shootings clustered on the east and west coasts. California, which is the most populous state in the country, had 27 school shooting incidents since 1999, the most of any state. The next highest state was Florida with 16 school shootings since 1999.</p>
+<p class="chapter-text">An analysis of the data shows that cities with the most number of school shootings tend to be large urban areas with high crime rates. Chicago, Los Angeles and Philadelphia top the list with five school shootings each. The data also reveals that the majority of shootings occur in places that would be considered “cities”, while just 14% occur in rural areas (see chart below).</p>
 
-    <p class="chapter-text">Graphic: Map of shootings</p>
+<p class="chapter-text">Almost all school shootings occur at public schools. According to the data collected by the Washington Post, only 5% of school shootings since 1999 have occured at a private school.</p>
 
-    <p class="chapter-text">An analysis of the data shows that cities with the most number of school shootings tend to be large urban areas with high crime rates. Chicago, Los Angeles and Philadelphia top the list with five school shootings each. The data also reveals that the majority of shootings occur in places that would be considered “cities”, while just 14% occur in rural areas (see chart below).</p>
+<!--OPEN map-->
+<div class="map">
+  <h2>School Shootings Map</h2>
+    <p class="map-text">This map displays school shooting incidents in the United States since Columbine.</p>
+      <iframe width="600" height="400" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col40+from+1OkGWmAm7QoJPBupZT0iq6qoXn2kWC9QSWdX8aybF&amp;viz=MAP&amp;h=false&amp;lat=37.92173388077187&amp;lng=-90.14076107726879&amp;t=1&amp;z=4&amp;l=col40&amp;y=2&amp;tmplt=2&amp;hml=TWO_COL_LAT_LNG"></iframe>
+      <em>Source: Data collected by The Washington Post</em>
+</div>
+<!--CLOSE map-->
 
-    <p class="chapter-text">Graphic: city rural</p>
+<br>
 
-    <p class="chapter-text">Almost all school shootings occur at public schools. According to the data collected by the Washington Post, only 5% of school shootings since 1999 have occured at a private school.</p>
-
-   <p class="chapter-text">School shootings have occured all over the United States, as seen in the map below. In general, higher population areas have seen more incidents, with shootings clustered on the east and west coasts. California, which is the most populous state in the country, had 27 school shooting incidents since 1999, the most of any state. The next highest state was Florida with 16 school shootings since 1999.</p>
 </div>
 </div>
 <!--END chapter 1-->
@@ -142,6 +148,10 @@
    </div>
    <!-- END line chart 2 graphic container-->
 
+   <p class="chapter-text">A school resource officer was not present at the vast majority of school shooting incidents. According to the Washington Post data, officers were present in only 35 percent of incidents.</p>
+
+   <p class="chapter-text">The presence of a school resource officer is widely seen as a positive security measure, though has produced mixed results in the past. A single school resource officer is credited with stopping an incident at a Great Falls High School in Maryland in 2018 after firing at the shooter. A school resource officer was widely criticized, and later resigned, for his behavior during the Parkland High School shooting in 2018, when he was accused of staying outside of the school during the rampage.</p>
+
    <p class="chapter-text">Most school shootings are targeted, seeking to harm a specific individual or group. Over 60% of shootings fall into this category, followed by indiscriminate shootings and accidental. See the chart below for more details.</p>
 
    <!--bar chart graphic container-->
@@ -153,27 +163,15 @@
 </div>
 <!-- END bar chart graphic container-->
 
-   <p class="chapter-text">In addition, a school resource officer was not present at the vast majority of school shooting incidents. According to the Washington Post data, officers were present in only 35 percent of incidents.</p>
-
- <!-- third graphic container-->
-  <div class="graphic-container">
-    <h2>How often were resource officers present</h2>
-    <p>School resource officers were commonly not present at the scene of school shooting incidents.</p>
-    <div id="resourceOfficersChart"></div>
-    <em>Source: Data collected by The Washington Post</em>
-  </div>
-<!-- END third graphic container-->
-
- <p class="chapter-text">The presence of a school resource officer is widely seen as a positive security measure, though has produced mixed results in the past. A single school resource officer is credited with stopping an incident at a Great Falls High School in Maryland in 2018 after firing at the shooter. A school resource officer was widely criticized, and later resigned, for his behavior during the Parkland High School shooting in 2018, when he was accused of staying outside of the school during the rampage.</p>
-
   <p class="chapter-text">
 The surviving victims of school shootings are increasingly putting pressure on state and national legislators to pass stricter gun control laws and take action on mass shootings. This video from The New York Times features school shooting survivors talking about their desire to see action taken by lawmakers.</p>
 
-<div class="stack-video">
-<iframe title="New York Times Video - Embed Player" width="480" height="321" frameborder="0" scrolling="no" allowfullscreen="true" marginheight="0" marginwidth="0" id="nyt_video_player" src="https://www.nytimes.com/video/players/offsite/index.html?videoId=100000005743406"></iframe>
-</div>
-
 <p class="chapter-text">The survivors of the Parkland High School shooting have come out on the national stage as a driving force promoting the passage of new gun legislation to protect against future school shootings.</p>
+
+<div class="stack-image">
+  <img src=images/emma-gonzalez.jpg alt="emma" class="responsive-image">
+    <p class="caption">Emma Gonzalez, a senior at Marjory Stoneman High School, speaks at a rally for gun control. Photo from People Magazine.</p>
+</div>
 
 </div>
 </div>
@@ -191,7 +189,15 @@ The surviving victims of school shootings are increasingly putting pressure on s
 
      <p class="chapter-text">According to the data collected by the Post, 95 percent of school shooters were male. Similarly, most shooters were white; 55 percent of school shooters were white and 33 percent were black, as seen in the chart below. The average age of school shooters is 19 years old. Four of the school shooters were under 10-years-old and fourteen were over 40. Most shooters were students or former students of the school where the shooting occured.</p>
 
-     <p class="chapter-text">Graphic: Bar chart comparing races</p>
+     <!-- fourth graphic container PIE CHART-->
+     <div class="graphic-container">
+      <h2>What race are school shooters likely to be?</h2>
+      <div id="shooterraceByPieChart"></div>
+      <em>Source: Data collected by The Washington Post</em>
+     </div>
+     <!-- END fourth graphic container PIE CHART-->
+
+     <br><br>
 
      <p class="chapter-text">Beyond them demographic profiles, there is debate about the common characteristics of school shooters. For example, though mental illness and childhood abuse are often cited as causes, the exact role these issues play is widely debated. One common characteristic, according to an FBI report about school shooters, is that shooters share their plans with at least one other person in around 80 percent of cases.</p>
 
@@ -222,7 +228,7 @@ The surviving victims of school shootings are increasingly putting pressure on s
  <div class="row">
    <div class="col-md-12">
      <div class="sources">
-       <h5>My sources</h5>
+       <h5>About the data</h5>
        <p class="chapter-text">
          School shooting data is surprisingly messy and hard to come by. There are few government or academic studies on the subject and those that do exist are mostly outdated. Further, school shooting data tends to be messy and hard to deal with. According to The Atlantic, the parameters of school shooting incidents makes data inconsistent.</p>
          <a href=https://github.com/washingtonpost/data-school-shootings>Washington Post School Shootings Data</a>
@@ -305,12 +311,15 @@ pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af
 });
 
 var chart3 = c3.generate({
- bindto: '#resourceOfficersChart',
+ bindto: '#shooterraceByPieChart',
  data: {
    // iris data from R
    columns: [
-     ['Present', 35],
-     ['Not present', 65],
+     ['Asian', 1],
+     ['American Indian', 3],
+     ['Black', 35],
+     ['Hispanic', 6],
+     ['White', 60],
    ],
    type : 'pie',
    onclick: function (d, i) { console.log("onclick", d, i); },
