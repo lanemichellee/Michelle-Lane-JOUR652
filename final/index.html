@@ -22,85 +22,129 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
 
         <!-- Google fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Serif:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+
+        <!-- Font Awesome -->
+           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
 </head>
 <body>
 
 <!--OPEN navbar-->
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">The Purple Line</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-
+<nav class="navbar">
+  <a class="navbar-brand" href="#"><i class="fas fa-home"></i></a>
+</nav>
 <!--CLOSE navbar-->
 
 <!--OPEN carousel-->
-<div id="carousel" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="girl-by-train.jpg" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
-    <h5>Girl By Train</h5>
-    <p>Waiting for Purple Line</p>
+<div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron-text">
+    <br><br><br>
+    <h1 class="display-3 font-weight-bold">Where will the Purple Line take you?</h1>
+      <p>Coming to the University of Maryland in 2022</p>
   </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="yellow-train-interior.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="train-tracks.jpg" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
 <!--CLOSE carousel-->
 
 <!--OPEN body container-->
 <div id="container">
 
+<!--headline-->
+<div id="hed">The Purple Line Project</div>
 
+<!--byline-->
+<div id="byline">By: Michelle Lane</div>
+<br>
+<!--OPEN chapter 1-->
+<a name="Learn More"></a>
+<div class="row">
+  <div class="col-md-12">
+    <div class="chapter-title">About the Project</div>
+
+<p class="chapter-text">The University of Maryland has a variety of large construction projects currently taking place on the College Park campus. These recent developments include the construction of the Iribe Center, the renovation of Cole Fieldhouse, and the Metrorail Purple Line project.</p>
+
+<p class="chapter-text">The largest of the current campus construction projects is the new Metrorail Purple Line, a light rail line that will cut across campus and is estimated to cost a total of 2.2 billion dollars. The project description as provided by the Maryland Transit Administration states that the project will include track stations, railcars, and two operation and maintenance facilities. The Maryland Transit Administration has defined the project Purpose & Need Summary Statement as listed below.</p>
+
+<!--OPEN quote-->
+<p class="quote">
+    <em>"The Purple Line will provide faster, more reliable transportation between residential and major employment areas. It will enhance access to existing radial Metrorail lines, increase capacity of congested roadways, support economic development consistent with local master plans, and reduce environmental impacts"<br>-Maryland Transit Administration</em>
+</p>
+<!--CLOSE quote-->
+
+<p class="chapter-text">The new rail line is expected to start service in 2022 and will impact the University of Maryland’s campus traffic patterns and university operations. The project will change the visual appearance of the campus and will make the campus more accessible to the surrounding community.</p>
+
+<p class="chapter-text">In addition to impacting College Park, the Purple Line will affect the Montgomery County and Prince George’s County communities. The 16.2-mile light rail line will travel through campus and will have 21 stations spanning from Bethesda, Md. in Montgomery County to New Carrollton, Md. in Prince George’s County. All of the Purple Line stations are shown in the map below.</p>
+
+<!-- Map -->
+<div id=map>
+  <div class="graphic-container">Purple Line Stations</div>
+  <br>
+  <iframe width="600" height="400" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col1+from+1f2J6tWxV2Glkr5Zed18_AJf0iIFuyLp2TkpEgq0f&amp;viz=MAP&amp;h=false&amp;lat=38.989630100189565&amp;lng=-76.98156714147979&amp;t=1&amp;z=11&amp;l=col1&amp;y=2&amp;tmplt=2&amp;hml=ONE_COL_LAT_LNG"></iframe>
+</div>
+<!-- END Map -->
+
+<br>
+
+<p class="chapter-text">The Purple Line will connect to the Red Line, Green Line, and Orange Line of the Metrorail systems, and will also connect to the MARC and Amtrak commuter rail systems. The Maryland Department of Transportation estimates that the Purple Line will have 69,000 total daily riders in 2030 and 74,000 daily riders in 2040.</p>
+
+<p class="chapter-text">With this new opportunity for commuters to utilize rail lines for travel, the Purple Line is anticipated to take thousands of vehicles off surrounding roadways. In a message from the University of Maryland’s Division of Administration & Finance, the sustainability goals in relation to the project were addressed.</p>
+
+<!--OPEN quote 2-->
+<p class="quote2">
+    <em>“As construction of the Purple Line ramps up on campus this fall, Campus Drive will transition into a one-way, west-bound only road. This will be a permanent change to the way traffic flows through the center of campus.”<br>-Linda Clement, Vice President for Student Affairs<br>Carlo Colella, Vice President for Administration & Finance</em>
+</p>
+<!--CLOSE quote 2-->
+
+<p class="chapter-text">While the construction can be an inconvenience, the growing campus population and vehicle congestion is an issue that needs to be addressed. Student enrollment at the University of Maryland, College Park has continually increased from 2013 through 2017.</p>
+
+<!-- first C3 graphic container LINE CHART 1-->
+<div class="graphic-container">
+ <h2>Undergraduate Student Enrollment</h2>
+ <p>The number of undergraduate students enrolled at the University of Maryland, College Park steadily increased from Fall 2013 to Fall 2017.</p>
+ <div id="myLineChart"></div>
+ <em>Source: USM Institutional Research Information System</em>
+</div>
+<!-- END first C3 graphic container LINE CHART 1-->
+
+<br>
+
+<p class="chapter-text">If enrollment rates continue to rise, accessibility to campus will continue to be a significant administrative challenge. Direct access to the campus via the Purple Line could accommodate increased numbers of students, faculty, and staff traveling toward College Park.</p>
+
+<p class="chapter-text">As of the Fall 2018 semester, the USM Institutional Research Information System reported that Montgomery County and Prince George’s County have a higher number of students enrolled than most other counties in the state, which is the geographical area serviced by the Purple Line.</p>
+
+<!-- third C3 graphic container BAR CHART-->
+<div class="graphic-container">
+ <h2>Where do in-state students live?</h2>
+ <p>The top five most populate counties by number of in-state students that live in the county.</p>
+ <div id="whereByBarChart"></div>
+ <em>Source: USM Institutional Research Information System</em>
+</div>
+<!-- END third C3 graphic container BAR CHART-->
+
+<br>
+
+<p class="chapter-text">The Purple Line will be a commuting option for the large quantity of students living in the Montgomery County and Prince George’s County areas that need to access campus. The Purple Line’s connections to other rail lines including the MARC and Amtrak systems will also give students access to the resources in Washington D.C. and other surrounding metropolitan areas.</p>
+
+<!--OPEN quote-->
+<p class="quote"><em>“As a student here at the university, I think that the Purple Line will actually be a great asset to the University moving forward. I think the growing pains of the construction is what is most frustrating right now, but the end result will only benefit the campus community and the other communities in a positive way.”<br>-Dimas R. Syuardi</em>
+</p>
+<!--CLOSE quote-->
+
+<p class="chapter-text">While construction is currently underway, there is still a substantial amount of work that needs to be completed before the Purple Line will be in service. The timeline below highlights some of the substantial project milestones as defined by the Department of Transportation Maryland Transit Administration. If the project stays on schedule, the Purple Line is expected to be open for service in 2022.</p>
+
+</div>
+</div>
 
 </div>
 <!--CLOSE body container-->
 
 <!--OPEN footer-->
-<div id="footer">
-  <h6>Created by Michelle Lane for JOUR652 Interactive Design and Development. <br> Philip Merrill College of Journalism, University of Maryland.</h6>
-</div>
-<!--CLOSE footer-->
 
+    <div id="footer">
+      <hr>
+      <p>Created by Michelle Lane for JOUR652 Interactive Design and Development<br>Philip Merrill College of Journalism, University of Maryland<br><i class="fas fa-subway"></i></p>
+    </div>
+<!--CLOSE footer-->
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -108,8 +152,49 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
+  <!-- c3 script-->
+     <script type="text/javascript">
+     //CHART 1
+     var chart = c3.generate({
+       bindto: '#myLineChart',
+       data: {
+         x: 'x',
+         columns: [
+           ['x', 2013, 2014, 2015, 2016, 2017],
+           ['Number of Undergraduate Students', 26658, 27056, 27443, 28472, 29868],
+           ['x', 2013, 2014, 2015, 2016, 2017],
+           ['Number of Graduate Students', 10614, 10554, 10697, 10611, 10653],
+         ]
+       },
+       color: {
+         pattern: ['#4b0082', '#91908f']
+       }
+     });
 
+     var chart2 = c3.generate({
+     bindto: '#whereByBarChart',
+     axis: {
+       rotated: true
+     },
+     bar: {
+       space: 0.25
+     },
+     data: {
+     columns: [
+     ['Montgomery', 9925],
+     ['Howard', 3192],
+     ['Prince George', 3109],
+     ['Baltimore County', 2363],
+     ['Anne Arundel', 2091],
+     ],
+     type: 'bar'
+     },
+     color: {
+     pattern: ['#4b0082', '#91908f', '#4b0082', '#91908f', '#91908f']
+     }
+     });
 
+      </script>
 
 </body>
 </html>
