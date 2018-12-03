@@ -40,10 +40,10 @@ body  {
 }
 
 #hed {
- font-size: 26px;
+ font-size: 38px;
  font-weight: 800;
  text-align: center;
- padding: 10px 0px;
+ padding: 15px 0px;
 }
 
 #byline {
@@ -53,6 +53,7 @@ body  {
 
 .chapter-title {
   font-size: 18px;
+  padding-bottom: 10px;
   font-weight: 600;
 }
 
