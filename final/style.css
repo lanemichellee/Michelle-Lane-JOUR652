@@ -6,9 +6,35 @@ body  {
     font-family: 'Roboto', sans-serif;
 }
 
-/* navbar */
-.navbar-brand {
-  color: black;
+a:link {
+  color: indigo;
+  text-decoration: none;
+}
+
+a:visited {
+  color: # indigo;
+  text-decoration: none;
+}
+
+a:hover {
+  color: indigo;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: white;
+}
+
+.bg-dark {
+ background: black !important;
+}
+
+ul.navbar-nav {
+ margin-left: 70%;
+}
+
+.navbar {
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -96,4 +122,6 @@ body  {
 #footer {
   width: 100%;
   text-align: center;
+  background: black;
+  color: white;
 }
