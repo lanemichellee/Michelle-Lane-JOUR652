@@ -1,3 +1,4 @@
+
 body  {
     color: black;
     font-size: 16px;
@@ -112,10 +113,10 @@ ul.navbar-nav {
   text-align: center;
 }
 
-#map {
-  max-width: 600px;
-  margin: 0 auto;
-  font-size: 30px;
+.map {
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: 600;
 }
 
 /* footer */
