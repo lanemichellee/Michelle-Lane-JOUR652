@@ -64,12 +64,13 @@
       <p>Coming to the University of Maryland in 2022</p>
   </div>
 </div>
-<!--CLOSE carousel-->
+<!--CLOSE jumbotron-->
 
 <!--OPEN body container-->
 <div id="container">
 
 <!--headline-->
+<br>
 <div id="hed">The Purple Line Project</div>
 
 <!--byline-->
@@ -103,11 +104,10 @@
 <p class="chapter-text">In addition to impacting College Park, the Purple Line will affect the Montgomery County and Prince George’s County communities. The 16.2-mile light rail line will travel through campus and will have 21 stations spanning from Bethesda, Md. in Montgomery County to New Carrollton, Md. in Prince George’s County. All of the Purple Line stations are shown in the map below.</p>
 
 <!-- Map -->
-
-<div class="map">Station Map</div>
+<div class="map"><h2>Station Map</h2>
+   <p>The map markers indicate the locations of the future Purple Line stations.</p>
 <iframe width="100%" height="400" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col1+from+1f2J6tWxV2Glkr5Zed18_AJf0iIFuyLp2TkpEgq0f&amp;viz=MAP&amp;h=false&amp;lat=38.97632442425787&amp;lng=-76.97287873206284&amp;t=3&amp;z=12&amp;l=col1&amp;y=2&amp;tmplt=2&amp;hml=ONE_COL_LAT_LNG"></iframe>
-<p class="caption">Source: The Washington Post article Mapping the Purple Line
-</div>
+<em>Source: The Washington Post - Mapping the Purple Line</em>
 </div>
 <!-- END Map -->
 
@@ -127,8 +127,8 @@
 
 <!-- first C3 graphic container LINE CHART 1-->
 <div class="graphic-container">
- <h2>Undergraduate Student Enrollment</h2>
- <p>The number of undergraduate students enrolled at the University of Maryland, College Park steadily increased from Fall 2013 to Fall 2017.</p>
+ <h2>University of Maryland Student Enrollment</h2>
+ <p>The number of undergraduate students enrolled at the University of Maryland, College Park steadily increased from Fall 2013 to Fall 2017. The number of graduate students enrolled remained consistently in the ten thousands rom Fall 2013 to Fall 2017.</p>
  <div id="myLineChart"></div>
  <em>Source: USM Institutional Research Information System</em>
 </div>
@@ -170,19 +170,34 @@
 </div>
 <!--CLOSE chapter 3-->
 
+</div>
+<!--CLOSE body container-->
+
 <!--OPEN sources-->
 <div class="row">
   <div class="col-md-12">
-    <div class="chapter-title">Sources</div>
-<https://www.washingtonpost.com/graphics/local/purple-line/
-
+    <div class="sources">
+      <h5>About the data</h5>
+        <p class="chapter-text">
+         School shooting data is surprisingly messy and hard to come by. There are few government or academic studies on the subject and those that do exist are mostly outdated. Further, school shooting data tends to be messy and hard to deal with. According to <a href=https://www.washingtonpost.com/graphics/local/purple-line/>The Washington Post-Mapping the Purple Line</a>
+         <a href=https://github.com/washingtonpost/data-school-shootings>Washington Post School Shootings Data</a>
+         <br>
+         <a href=https://github.com/StanfordGeospatialCenter/MSA>Stanford Mass Shootings in America Data</a>
+         <br>
+         <a href=https://www.theatlantic.com/education/archive/2018/02/another-school-shootingbut-whos-counting/553412/>Why school shooting data is messy</a>
+         <br>
+         <a href=https://www2.ed.gov/admins/lead/safety/preventingattacksreport.pdf>Implications for the Prevention of School Attacks in the United States</a>
+         <br>
+         <a href=https://www.psychologytoday.com/us/blog/when-disaster-strikes-inside-disaster-psychology/201803/profiling-school-shooters>Profiling school shooters</a>
+    </div>
+  </div>
 </div>
-<!--CLOSE body container-->
+<!--CLOSE sources-->
 
 <!--OPEN footer-->
 
     <div id="footer">
-      <hr>
+      <br>
       <p>Created by Michelle Lane for JOUR652 Interactive Design and Development<br>Philip Merrill College of Journalism, University of Maryland<br><i class="fas fa-subway"></i></p>
     </div>
 <!--CLOSE footer-->
@@ -227,11 +242,30 @@
      ['Prince George', 3109],
      ['Baltimore County', 2363],
      ['Anne Arundel', 2091],
+     ['Frederick', 1214],
+     ['Harford', 799],
+     ['Carroll', 638],
+     ['Baltimore City', 633],
+     ['Charles', 455],
+     ['Calvert', 394],
+     ['Allegany', 285],
+     ['St. Mary’s', 252],
+     ['Washington', 213],
+     ['Queen Anne’s', 168],
+     ['Cecil', 156],
+     ['Wicomico', 155],
+     ['Worcester', 88],
+     ['Talbot', 76],
+     ['Caroline', 60],
+     ['Dorchester', 32],
+     ['Kent', 17],
+     ['Garrett', 14],
+     ['Somerset', 9],
      ],
      type: 'bar'
      },
      color: {
-     pattern: ['#4b0082', '#91908f', '#4b0082', '#91908f', '#91908f']
+     pattern: ['#4b0082', '#91908f', '#4b0082', '#91908f', '#91908f', '#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f','#91908f']
      }
      });
 
