@@ -7,12 +7,12 @@ body  {
 }
 
 a:link {
-  color: indigo;
+  color: white;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: indigo;
   text-decoration: none;
 }
 
@@ -125,11 +125,6 @@ ul.navbar-nav {
   background-size: cover;
   max-width: 1100px;
   margin: 0 auto;
-}
-
-.sources-text {
-  padding-left: 30px;
-  color: white;
 }
 
 /* footer */
