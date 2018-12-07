@@ -62,7 +62,7 @@ ul.navbar-nav {
 /* body */
 
 #container {
-  max-width: 1000px;
+  max-width: 900px;
   padding: 5px;
   margin: 0 auto;
   width:100%;
@@ -95,9 +95,9 @@ ul.navbar-nav {
 }
 
 .chapter-title {
-  font-size: 18px;
+  font-size: 20px;
   padding-bottom: 10px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .chapter-text {
@@ -122,12 +122,21 @@ ul.navbar-nav {
   padding: 15px 0px;
 }
 
-.map {
+.graphic-container h4 {
+  color: indigo;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.map h4 {
   text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  color: indigo;
 }
 
 .timeline {
-  padding-top: 10px;
+  padding-top: 25px;
 }
 
 .sources {
@@ -135,6 +144,7 @@ ul.navbar-nav {
   background-size: cover;
   color: white;
   padding: 30px 45px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -144,7 +154,7 @@ padding: 0px 30px;
 
 /* footer */
 #footer {
-  width: 100%;
+  max-width: 100%;
   text-align: center;
   background: black;
   color: white;
