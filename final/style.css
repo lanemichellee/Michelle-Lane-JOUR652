@@ -12,12 +12,12 @@ a:link {
 }
 
 a:visited {
-  color: indigo;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: indigo;
+  color: grey;
   text-decoration: none;
 }
 
@@ -37,6 +37,7 @@ ul.navbar-nav {
 .navbar {
   max-width: 1100px;
   margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* jumbotron */
@@ -70,12 +71,13 @@ ul.navbar-nav {
  font-size: 38px;
  font-weight: 800;
  text-align: center;
- padding: 15px 0px;
+ padding: 5px 0px;
 }
 
 #byline {
- font-weight: 400;
+ font-weight: 600;
  text-align: center;
+ padding: 10px;
 }
 
 .chapter-title {
@@ -93,38 +95,38 @@ ul.navbar-nav {
   background: indigo;
   color: white;
   max-width: 750px;
-  padding: 25px 10px;
+  padding: 25px 15px;
   text-align: right;
   float: right;
   opacity: .4;
-}
-
-.quote2 {
-  background-image: url(train-tracks.jpg);
-  background-size: cover;
-  color: white;
-  max-width: 750px;
-  padding: 25px 10px;
-  text-align: right;
-  float: right;
 }
 
 .graphic-container {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
+  padding: 15px 0px;
 }
 
 .map {
   text-align: center;
 }
 
-/* jumbotron */
+.timeline {
+  padding-top: 10px;
+}
+
 .sources {
-  background-image: url(girl-by-train.jpg);
+  background-image: url(train-tracks.jpg);
   background-size: cover;
+  color: white;
   max-width: 1100px;
+  padding: 30px 45px;
   margin: 0 auto;
+}
+
+.sources-links {
+padding: 0px 30px;
 }
 
 /* footer */
@@ -133,4 +135,5 @@ ul.navbar-nav {
   text-align: center;
   background: black;
   color: white;
+  padding: 20px;
 }
